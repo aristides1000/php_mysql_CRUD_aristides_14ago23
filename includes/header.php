@@ -14,7 +14,7 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <i class="bi bi-bell-fill"></i>
-          Pagina de tareas
+          Página de tareas
         </a>
       </div>
     </nav>
