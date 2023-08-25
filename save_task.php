@@ -12,16 +12,16 @@
       $img_content = "";
     }
 
-    $query = "INSERT INTO task(title, description, image) VALUES('$title', '$description', '$img_content')";
+    $query = "INSERT INTO task(title, description, image) VALUES ('$title', '$description', '$img_content')";
     $result = mysqli_query($conn, $query);
 
-    if(!$result) {
-      die("Query Failed.");
-    }
-
-    $_SESSION['message'] = 'Task Saved Successfully';
-    $_SESSION['message_type'] = 'success';
-    header('Location: index.php');
-
+  if(!$result) {
+    die("Query failed");
   }
+
+  $_SESSION['message'] = 'Task Saved successfully';
+  $_SESSION['message_type'] = 'success';
+  header('Location: index.php');
+
+}
 ?>
