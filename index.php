@@ -6,8 +6,8 @@
   include("includes/header.php");
 ?>
 
-<main class="container p-4">
-  <div class="row">
+<main class="container p-4 mt-5 mb-5">
+  <div class="row mt-5 mb-5">
     <div class="col-md-4">
     <!-- MESSAGES -->
 
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="col-md-8">
+    <div class="col-md-8 mb-5">
       <table class="table table-bordered">
         <thead>
           <tr>

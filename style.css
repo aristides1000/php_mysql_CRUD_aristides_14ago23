@@ -5,3 +5,37 @@
 .resize-image {
   width: 7rem;
 }
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 0;
+}
+
+.background-color-transparency {
+  background-color: rgba(255, 255, 255, 0.95);
+}
+
+body {
+  height: 100vh;
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.align-elements {
+  display: flex;
+  align-items: center;
+}
+
+.delete-scroll {
+  overflow: hidden;
+}

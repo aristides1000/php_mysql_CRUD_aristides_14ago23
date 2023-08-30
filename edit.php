@@ -38,8 +38,8 @@
   include("includes/header.php");
 ?>
 
-<main class="container p-4">
-  <div class="row">
+<main class="container p-4 mt-5">
+  <div class="row mt-5 mb-5">
     <div class="col-md-4 mx-auto">
       <div class="card card-body">
       <form action="edit.php?id=<?php echo $_GET['id']; ?>" method="POST" enctype="multipart/form-data">
